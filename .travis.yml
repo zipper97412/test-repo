@@ -1,3 +1,6 @@
 language: c
 compiler: gcc
-script: make hello && ./hello
+before_script: 
+ - make hello
+ - chmod +x hello
+script: ./hello

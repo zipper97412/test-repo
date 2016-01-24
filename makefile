@@ -1,5 +1,5 @@
 hello: main.c
-	gcc -c main.c -o hello
+	gcc main.c -o hello
 	
 test: hello
 	chmod +x hello

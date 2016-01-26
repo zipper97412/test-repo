@@ -1,5 +1,4 @@
 language: c
-compiler: gcc
 before_script: 
  - make test
  - chmod +x hello

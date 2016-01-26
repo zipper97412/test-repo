@@ -1,6 +1,6 @@
 language: c
 compiler: gcc
 before_script: 
- - make hello
+ - make test
  - chmod +x hello
 script: ./hello
